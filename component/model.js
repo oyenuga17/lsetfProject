@@ -8,7 +8,7 @@ const schemaStructure = mongoose.Schema({
 		required: true,
 		unique: [true, "This country already exist"],
 	},
-	name: { 
+	author: { 
 		type: String,
 		required: true,
 		unique: [true, "This name already exist"],
