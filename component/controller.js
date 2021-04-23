@@ -9,7 +9,8 @@ const {
 const express = require("express");
 const router = express.Router();
 
-router.route("/").get(getAllEntry).post(createEntry);
+router.route("/").get(getAllEntry)
+            	.post(createEntry);
 
 router
 	.route("/:id")

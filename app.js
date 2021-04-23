@@ -5,7 +5,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 //require port number
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 
 //connect to heroku
 const cors = require("cors");
